@@ -63,7 +63,7 @@
 
             <TextView
                 style="@style/Profile.Header.Rank"
-                android:id="@+id/iv_rank"
+                android:id="@+id/tv_rank"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tv_nick_name"
@@ -250,6 +250,7 @@
             android:src="@drawable/ic_repo"/>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/wr_repository"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/spacing_normal_16"
